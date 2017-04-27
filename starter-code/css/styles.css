@@ -9,12 +9,6 @@ body {
   color: black;
 }
 
-header, main {
-  width: 960px;
-  margin: 0 auto;
-  position: relative;
-}
-
 /* HEADER */
 
 header nav ul li {
