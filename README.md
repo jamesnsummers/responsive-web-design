@@ -58,7 +58,7 @@ If you're not planning before you begin to create a responsive design, you're do
 
 It is becoming harder and harder to find non-responsive websites. We can use the [Internet Wayback Machine](http://web.archive.org/) to time travel to when the internet was an uglier, non-responsive place.
 
-> Note: Find examples of non-responsive sites.
+#### Student Challenge: Find some *non-responsive* sites (5 mins)
 
 #### Examples of responsive sites:
 
@@ -76,18 +76,17 @@ Interestingly, **Boston Globe was the first example of a responsive website.**
 
 There is a really awesome tool in the development tools, sometimes called the Inspector:
 
-- Let's visit GA's homepage
+- Let's visit GA's homepage and open our Dev Tools Inspector
 - Click on the device icon next to the magnifying glass
 - You can change the pixel width (displayed at the top) using the drag tool
 - You can select any device using the dropdown menu at the top
 
-## Challenge: Find some *non-responsive* sites
 
 ## Make a responsive website - Codealong (15 mins)
 
 Download the [starter-code](https://github.com/wdi-atx-11/responsive-web-design/tree/master/starter-code)
 
-Now open everything in Atom and add the contents of a [reset.css](http://cssreset.com/) to the reset stylesheet.
+> We've included a *reset.css* file in the starter code as well. Let's talk about what this does for us. Check out [Eric Meyer's site](https://meyerweb.com/eric/tools/css/reset/) for some background.
 
 #### Add some HTML
 
@@ -100,8 +99,8 @@ Now let's add some html into the index.html file:
   <title>Responsive design</title>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="./js/app.js"></script>
-  <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
-  <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
   <header>
@@ -474,7 +473,7 @@ $(function(){
 
 So now, we should have a responsive site!
 
-If you get some issues with when the browser window changes size, you might need to add some `!important` tags to make sure that the browser uses the right selector.
+<!-- If you get some issues with when the browser window changes size, you might need to add some `!important` tags to make sure that the browser uses the right selector.
 
 
 #### Meta viewport
@@ -489,7 +488,7 @@ Put the following code into our header.
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-Now, recheck to see your awesome, responsive website!
+Now, recheck to see your awesome, responsive website! -->
 
 ## Conclusion (5 mins)
 
@@ -508,4 +507,6 @@ Though we won't cover this explicitly in this lesson, consider this while your b
 ## Hungry for more?
   - [Ghostlab](http://vanamco.com/ghostlab/) is a service that will test how your site runs on many different browsers, inspects and points out CSS problems, and also provides compilation services for preprocessors like Sass.  
 
-  - Read up on [Atomic Design](http://atomicdesign.bradfrost.com/table-of-contents/) principles with Brad Frost
+  - Read up on [Atomic Design](http://atomicdesign.bradfrost.com/table-of-contents/) principles with Brad Frost  
+
+  - Get used to traditional [CSS Positioning on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position) and more with __*Float*__ on [CSS-Tricks](https://css-tricks.com/all-about-floats/) (This is even what most CSS Frameworks, like Bootstrap, still use for their grid systems behind the scenes)
