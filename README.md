@@ -26,11 +26,16 @@ competencies: Front-end intro
 
 ## What is responsive design? Intro (10 mins)
 
-"Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... by looking awesome no matter what.
+"Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... and by looking awesome no matter what.
 
 Or, the dryer Wikipedia definition:
 
-"Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).""
+"Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors)."
+
+There are a few basic principles that make up our responsive ecosystem:
+- Fluid Grids
+- Fluid Images
+- Media Queries
 
 #### More devices
 
@@ -40,20 +45,20 @@ Fast forward to today, and the desktop computer is dying, more than 71% of the U
 
 - **195 million** tablet devices were sold in 2013.
 - The number of active mobile devices and human beings crossed over somewhere around the [7.19 billion mark](http://www.independent.co.uk/life-style/gadgets-and-tech/news/there-are-officially-more-mobile-devices-than-people-in-the-world-9780518.html).
-- New devices like iWatches are changing the game too
+- New devices like smart watches are changing the game too
 - "Having a mobile friendly website is no longer just important, it’s critical.", [Forbes Ecommerce Marketing Checklist for 2013](http://www.forbes.com/sites/brentgleeson/2013/03/14/ecommerce-marketing-checklist-for-2013/)
 
 
 
 ## How to do Responsive Design wrong - Demo (10 mins)
 
-If you're not planning before you begin to create a responsive design, you'r doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
+If you're not planning before you begin to create a responsive design, you're doing it wrong. Changing a web platform to a mobile platform is much more difficult than going from mobile to web.
 
 #### Examples of non-responsive sites:
 
-It is becoming harder and harder to find non-responsive websites.
+It is becoming harder and harder to find non-responsive websites. We can use the [Internet Wayback Machine](http://web.archive.org/) to time travel to when the internet was an uglier, non-responsive place.
 
-> Note: Find examples of non-responsive sites to show to students.
+> Note: Find examples of non-responsive sites.
 
 #### Examples of responsive sites:
 
@@ -64,33 +69,23 @@ It is becoming harder and harder to find non-responsive websites.
 What's the difference between these? Let's resize again.
 Interestingly, **Boston Globe was the first example of a responsive website.**
 
-Instead of manually resizing the page, which can be a pain we, can use tools like this:
-
-- [Brad Frost](http://bradfrostweb.com/demo/ish/)
-
-Add a url into the input box (top left).
-
-You can easily resize the screen and see how the different sites look using the buttons on the top right.
-
-If you are really bold, choose disco!
-
-
 ## Demo - Responsive Design tools (10 mins)
 
 
 #### Chrome Developer Tools
 
-Also, there is a really awesome tool in the development tools:
+There is a really awesome tool in the development tools, sometimes called the Inspector:
 
 - Let's visit GA's homepage
 - Click on the device icon next to the magnifying glass
 - You can change the pixel width (displayed at the top) using the drag tool
 - You can select any device using the dropdown menu at the top
 
+## Challenge: Find some *non-responsive* sites
 
 ## Make a responsive website - Codealong (15 mins)
 
-Download the [starter-code](starter-code)
+Download the [starter-code](https://github.com/wdi-atx-11/responsive-web-design/tree/master/starter-code)
 
 Now open everything in Atom and add the contents of a [reset.css](http://cssreset.com/) to the reset stylesheet.
 
