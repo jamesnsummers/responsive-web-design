@@ -412,10 +412,10 @@ Now, let's do the smaller browser:
 
 The issue we have is the menu. When we get to a small size, there isn't enough room for all of the links.
 
-We are going to have to add a new "burger icon". There are a number of different ways to do this - we'll try it with a text icon. Let's add another `li` to the `nav ul`:
+We are going to have to add a new "burger icon". There are a number of different ways to do this - we'll try it with a text icon. Let's add another `li` to the top of our `nav ul`:
 
 ```html
-<li><a href="#"></a></li>
+<li><a href="#">&#9776</a></li>
 ```
 
 And let's style this with CSS.
